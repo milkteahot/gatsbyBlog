@@ -15,7 +15,6 @@ const Card = props => {
         <div className="p-4 sm:p-5">
           <h1 className="sm:text-lg text-gray-900 font-semibold">{name}</h1>
           <p className="text-sm sm:text-base text-gray-700">{summary}</p>
-          <p className="text-sm sm:text-base text-gray-700">#{slug}</p>
         </div>
       </Link>
     </div>

@@ -5,18 +5,8 @@ import Card from "./Card"
 
 const Cards = ({ items, hideLastItemOnMobile = false }) => {
 
-  const handleCategory = (slug) => {
-    console.log(slug)
-  }
-
   return (
     <div className="container">
-      {items.map(item => (
-        <button key={item.id}
-        onClick={() => handleCategory(item.slug)}
-        style={{margin:"1rem", border:"1px solid blue", padding:"1rem"}}
-        >{item.slug}</button>
-      ))}
       <div className="flex flex-wrap -mx-3 lg:-mx-6">
         {items.map(item => (
           <div
