@@ -2,7 +2,7 @@
   "name": "gatsby-contentful-portfolio",
   "description": "Portfolio theme for GatsbyJS",
   "version": "1.0.0",
-  "author": "Wojciech Kocjan <wojciech@kocjan.net>",
+  "author": "skying",
   "dependencies": {
     "autoprefixer": "^9.7.6",
     "classnames": "^2.2.6",

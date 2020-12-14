@@ -6,6 +6,7 @@ import Layout from "../layouts/Layout"
 import Newsletter from "../components/Newsletter"
 import SiteMetadata from "../components/SiteMetadata"
 
+
 const IndexPage = ({ data }) => {
   return (
     <Layout>
