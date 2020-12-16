@@ -10,7 +10,7 @@ import SiteMetadata from "../components/SiteMetadata"
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <SiteMetadata title="Work" description="Portfolio of Skying" />
+      <SiteMetadata title="Skying's Artwork" description="Portfolio of Skying" />
 
       <Hero />
 
