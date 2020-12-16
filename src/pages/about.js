@@ -21,24 +21,29 @@ const AboutPage = ({ data }) => (
               Exploring the world of Javascript and Art.
             </h2>
             <div className="mt-4 leading-loose">
-              Curabitur non hendrerit dolor. Interdum et malesuada fames ac ante
-              ipsum primis in faucibus. Ut&nbsp;sapien ex, fringilla sed
-              consectetur et, pharetra eget lacus.
+              안녕하세요, 스카잉입니다 <span role="img" aria-label="hifive">🙌</span><br />
+              인생을 예술로 대한다면, 어떤 작품을 만들고 싶은가요? <br /><br />
+              자신의 시각으로 세상을 해석하는 창작자를 응원하며, <br />1일1창작을 통해 일상을 예술로 만드는 <br />30theart 프로젝트를 운영하고 있습니다. <br /><br />
+              <a href="https://30theart.netlify.app/about.html" 
+              className="border-gray-500 hover:border-blue-600 hover:text-blue-600"
+              >
+                <span role="img" aria-label="arrow">👉</span> 30theart 후기 구경하기
+              </a>
               <br />
               <br />
-              Morbi sem leo, varius ut tempus et, tempor sit amet nibh.
-              Curabitur fermentum feugiat libero, sed egestas lorem aliquam et.
-              Praesent id mi purus. Morbi sem leo, varius ut tempus et, tempor
-              sit amet nibh.
+              Hi, I'm Skying. <br />
+              If the Life is Art, what kind of art would you like to make? 
               <br />
+              <br />
+              Love every creation made by own point of view, working on a daily creation project '30theart'.
               <br />
               I'm happy to hear from you:
               <br />
               <a
-                href="mailto:contact@gmail.com"
+                href="mailto:greenegoode11@gmail.com"
                 className="border-b border-gray-500 hover:border-blue-600 hover:text-blue-600"
               >
-                contact@gmail.com
+                greenegoode11@gmail.com
               </a>
             </div>
           </div>
@@ -60,9 +65,9 @@ export default AboutPage
 
 export const query = graphql`
   query {
-    author: file(relativePath: { eq: "author.jpg" }) {
+    author: file(relativePath: { eq: "author2.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 600, maxHeight: 480, quality: 85) {
+        fluid(maxWidth: 480, maxHeight: 600, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
