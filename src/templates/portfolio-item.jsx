@@ -4,8 +4,8 @@ import React from "react"
 import SiteMetadata from "../components/SiteMetadata"
 import Button from "../components/Button"
 import Cards from "../components/Cards"
-import Carousel from "../components/Carousel"
-import Newsletter from "../components/Newsletter"
+// import Carousel from "../components/Carousel"
+// import Newsletter from "../components/Newsletter"
 import Layout from "../layouts/Layout"
 
 export default props => {
@@ -80,7 +80,7 @@ export default props => {
           <Cards items={related} hideLastItemOnMobile={true} />
         </div>
       )}
-      <Newsletter />
+      {/* <Newsletter /> */}
     </Layout>
   )
 }
