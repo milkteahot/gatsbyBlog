@@ -54,7 +54,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#3182ce`,
         display: `minimal-ui`,
-        icon: `src/images/icon.png`,
+        icon: `src/images/30theart_md.png`,
       },
     },
   ],

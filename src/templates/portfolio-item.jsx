@@ -36,17 +36,16 @@ export default props => {
                   alt={name}
                 />
               )}
-              
-              {gallery && gallery.length > 1 && (
-                gallery.map((img,key) => (
-                <Img
-                  fluid={img.localFile.childImageSharp.fluid}
-                  alt={name}
-                  key={key}
-                />
-                ))
-                
-              )}
+
+              {gallery &&
+                gallery.length > 1 &&
+                gallery.map((img, key) => (
+                  <Img
+                    fluid={img.localFile.childImageSharp.fluid}
+                    alt={name}
+                    key={key}
+                  />
+                ))}
               {/* {gallery && gallery.length > 1 && <Carousel images={gallery} />} */}
             </div>
             <div className="w-full lg:w-1/3 lg:pl-8 xl:pl-12">
