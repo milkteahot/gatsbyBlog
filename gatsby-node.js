@@ -14,6 +14,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       related: [ContentfulPortfolio]
       slug: String!
       summary: String!
+      textcontent: String
       thumbnail: ContentfulAsset
       url: String
     }
