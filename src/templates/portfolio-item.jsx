@@ -16,6 +16,7 @@ export default props => {
     related,
     summary,
     thumbnail,
+    textcontent,
     url,
   } = props.data.item
 
@@ -58,6 +59,11 @@ export default props => {
               {description && (
                 <div className="my-4 text-base text-gray-700 whitespace-pre-line">
                   {description.description}
+                </div>
+              )}
+              {textcontent && (
+                <div className="my-4 text-base text-gray-700 whitespace-pre-line">
+                  {textcontent}
                 </div>
               )}
               {url && (
